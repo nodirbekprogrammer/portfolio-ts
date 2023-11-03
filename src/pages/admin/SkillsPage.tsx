@@ -98,7 +98,7 @@ const EducationPage = () => {
         title={() => (
           <Fragment>
             <Flex align="center" justify="space-between" gap={36}>
-              <h1 className="skills-title">Education ({total})</h1>
+              <h1 className="skills-title">Skills ({total})</h1>
               <Input
                 className="search-input"
                 // value={search}
@@ -107,7 +107,7 @@ const EducationPage = () => {
                 placeholder="Searching..."
               />
               <Button onClick={showModal} type="primary">
-                Add education
+                Add skill
               </Button>
             </Flex>
           </Fragment>
